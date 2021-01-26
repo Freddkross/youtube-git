@@ -4,4 +4,7 @@
 2- git add . #prepara los archivos para el commit poniendolos en el state
 3- git reset . #revierte el state 
 4- git commit # se crea la fotografia de los archivos creados y modificados asta el momento 
-5- git checkout -- .
+5- git checkout -- . #restaura los archivos pasados al ultimo commit 
+6- git log  # muestra el historial de  todos los commits efectuados
+7 git commit --amend
+8 git checkout  -b rama-heroes
